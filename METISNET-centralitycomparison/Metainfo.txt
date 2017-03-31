@@ -1,0 +1,16 @@
+
+Name of QuantLet: METISNET-centralitycomparison
+
+Published in: METIS
+
+Description: 'Compare network centralities using the example of Minnesota road network'
+
+Keywords: 'network, plot, comparison, centrality, Minnesota road network'
+
+Author: MathWorks
+
+Submitted: Ya Qian
+
+Datafile: minnesota.mat
+
+Output: 'Plots of Minnesota road network displayed in different centrality measures'
