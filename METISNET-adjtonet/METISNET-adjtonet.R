@@ -23,19 +23,19 @@ Graph1           = graph_from_adjacency_matrix(Adjac1, mode = "undirected", weig
                                      add.colnames = TRUE)
 lay1             = layout.circle(Graph1)
 plot.igraph(Graph1, main = "A sample symmetric, undirected network of 4 nodes", edge.color="blue", edge.arrow.size = 0.2,  
-     vertex.size = 40, vertex.color="orange", vertex.frame.color="#ffffff", 
+     vertex.size = 40, vertex.label.cex = 2.0, vertex.color="orange", vertex.frame.color="#ffffff", 
      layout = lay1, edge.width = E(Graph1)$weight*5)
 
 Graph2           = graph_from_adjacency_matrix(Adjac2, mode = "directed", weighted = NULL, diag = TRUE,
                                      add.colnames = TRUE)
 lay2             = layout.circle(Graph2)
 plot.igraph(Graph2, main = "A sample directed, unweighted network of 4 nodes", edge.color="blue", edge.arrow.size = 0.2,  
-            vertex.size = 40, vertex.color="orange", vertex.frame.color="#ffffff", 
+            vertex.size = 40, vertex.label.cex = 2.0,  vertex.color="orange", vertex.frame.color="#ffffff", 
             layout = lay2, edge.width = E(Graph2)$weight*5)
 
 Graph3           = graph_from_adjacency_matrix(Adjac3, mode = "directed", weighted = TRUE, diag = TRUE,
                                      add.colnames = TRUE)
 lay3             = layout.circle(Graph3)
 plot.igraph(Graph3, main = "A sample directed, weighted network of 4 nodes", edge.color="blue", edge.arrow.size = 0.2,  
-            vertex.size = 40, vertex.color="orange", vertex.frame.color="#ffffff", 
+            vertex.size = 40, vertex.label.cex = 2.0,  vertex.color="orange", vertex.frame.color="#ffffff", 
             layout = lay3, edge.width = E(Graph3)$weight*5)
