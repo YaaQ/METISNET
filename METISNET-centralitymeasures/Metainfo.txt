@@ -1,0 +1,16 @@
+
+Name of QuantLet: METISNET-centralitymeasures
+
+Published in: METIS
+
+Description: 'Give a few examples of centrality calculation'
+
+Keywords: 'plot, network, adjacency matrix, centrality, weighted'
+
+Author: Ya Qian
+
+Submitted: Ya Qian
+
+Input: Adjacency matrices
+
+Output: 'Network plots of the corresponding adjacency matrices and their centralities' 
