@@ -1,0 +1,71 @@
+\documentclass[handout]{beamer}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{transparent}
+\usepackage{eso-pic}
+\usepackage{mathrsfs}
+\usepackage{url}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{bookmark}
+\usepackage{bbm}
+\usepackage{etoolbox}
+\usepackage{cooltooltips}
+\usepackage{colordef}
+\usepackage{beamerdefs}
+\usepackage{sfedefinitions}
+\usepackage{customdefs}
+
+\usepackage{epigraph}
+\usepackage{multimedia}
+
+\let\Tiny=\tiny
+
+\pgfdeclareimage[height=5cm]{logobig}{images/hucaselogo}
+\pgfdeclareimage[height=0.7cm]{logosmall}{images/logosmall}
+
+\numberwithin{equation}{section}
+
+% use this number to modify the scaling of the headline on titlepage
+\renewcommand{\titlescale}{1.0}
+\renewcommand{\leftcol}{0.6}
+%\newcommand{\apssplace}{http://www.quantlet.com/mdstat/codes/sfe/}
+\newcommand{\RDC}{\hspace*{\fill} \raisebox{-2pt}{\includegraphics[scale=0.025]{project/Bertram&Thesdorf/RDC.jpg}}\,}
+
+\authora{J\"urgen Franke}
+\authorb{Wolfgang H\"ardle}
+\authorc{Christian Hafner}
+
+\def\linka{lvb.wiwi.hu-berlin.de}
+\def\linkb{}
+\def\linkc{}
+
+\title[SFE]{Statistics of Financial Markets}
+\institute{%
+    Ladislaus von Bortkiewicz Chair of Statistics\\
+    C.A.S.E. -- Center for Applied Statistics\\
+    and Economics\\
+    Humboldt--Universit\"at zu Berlin
+}
+
+\hypersetup{pdfpagemode=FullScreen}
+
+\begin{document}
+
+
+  % Set LvB as backgrop for title slide
+  \usebackgroundtemplate{\includegraphics[height=\paperheight]{images/lvb2.png}}
+
+  \frame[plain]{
+    \titlepage
+    }
+
+\end{document}

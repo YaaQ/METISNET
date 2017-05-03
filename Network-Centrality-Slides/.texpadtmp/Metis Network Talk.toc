@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Motivation}{2}{0}{1}
+\beamer@sectionintoc {2}{Definition}{10}{0}{2}
+\beamer@sectionintoc {3}{Adjacency Matrix}{2}{0}{3}
+\beamer@sectionintoc {4}{Network Centrality}{4}{0}{4}
+\beamer@subsectionintoc {4}{1}{Centrality}{1}{0}{4}
+\beamer@sectionintoc {5}{Comparison of Various Centralities}{7}{0}{5}
